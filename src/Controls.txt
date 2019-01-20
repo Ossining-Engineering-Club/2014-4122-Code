@@ -1,0 +1,43 @@
+Control Locations v2
+
+Right Joystick - Stick 1 - Driving Control
+Button 1 (Trigger) - Shoot with Left Button 1
+Button 2 - Low Gear
+Button 3 - High Gear
+Button 4 - Retract Shooter
+Button 5 - Compressor On/Off
+Throttle - Drive Speed
+
+Left Joystick - Stick 2 - Pickup Control
+Stick X - Empty
+Button 1 (Trigger) - Shoot with Right Button 1
+Button 2 - (Hold for) Pickup Arm Down
+Button 3 - (Hold for) Pickup Arm Up
+Button 5 - (Hold for) Spinners Forward
+Button 4 - (Hold for) Spinners Reverse
+Throttle - Arm Speed
+
+PWMs
+1 - Left Drive Motor 1
+2 - Left Drive Motor 2
+3 - Right Drive Motor 1
+4 - Right Drive Motor 2
+5 - 
+6 - PickupArm Jaguars
+7 - Pickup Spinner Jaguars 
+
+Relay 
+1 Compressor On Spike
+
+Solenoid
+1 - Gear Shifter Cylinder
+2 - Shooter Cylinder 1 & 2
+
+Digital Input
+1 - Compressor Switch 
+
+Analog Input
+1 - Ultrasonic Ranger
+
+Serial Port
+Laser Ranger

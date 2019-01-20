@@ -1,0 +1,34 @@
+Ossining 2014 Robot Code
+2/7/14	 - V1.0 Initial Version of TestbotTank2014
+2/11/14	 - V1.1 Renamed to Bot2014v1.1
+	- Changed TankDriveThrottle:
+		+ Changed to drive with 4 motors so only one instance needed
+		+ Added Reverse method to handle control inversion
+	- AnalogUltrasonic changes:
+		+ Simplified range calculation
+		+ Corrected GetFeet single reading
+		+ Removed Metric calculations
+		+ Change filter to use single constant and moved to constants
+	- Defined constants in constant file
+	- MyRobot
+		+ Added Code version to Display and constants
+		+ Removed Arcade Drive option to simplify
+		+ Added character constants for displaying modes to Driver Station
+		+ Renamed joysticks to leftstick and rightstick
+2/12/14	- V1.2 Changes from Class Discussion
+	- Rename allowCompressHelp to compressButtonUp
+	- Disabled drive reversal
+	- Added Joystick Deadzones
+2/13/14 - V1.3 Includes changes from Testing 
+	- Switch left and right assignments in TankDriveThrottle
+	- Invert throttle variable in TankDriveThrottle
+	- In ArmMotors, Convert Throttle to 0 to 1 before using
+	- Invert Spinning Arms direction in MyRobot
+	- Switch High and Low Gears to correct buttons
+	- Change Autonomous Constants using testing
+	- Add DeadZone to Spinners on Joystock in MoRobot
+2/14/14 - V1.4 Created to Pass to OHS Laptop
+2/15/14 - V2.0 Updating to Run with New Pickup Mechanism
+	- Add Constant for ENCODER_DIST_PER_PULSE and use for calculating distance
+	- Change Left Throttle to set pickup spinning speed
+	- Move Arm Up and Down Pneumatics to Left Buttons 2 and 3
